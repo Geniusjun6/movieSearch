@@ -3,13 +3,6 @@ const $searchInput = document.getElementById('search-input');
 const $searchBtn = document.getElementById('searchBtn');
 const $refreshBtn = document.getElementById('refreshBtn');
 
-const $modal = document.getElementById("modal");
-const $modalCnt = document.getElementById("modalCnt");
-const $movieTitle = document.getElementById("movieTitle");
-const $movieOverview = document.getElementById("movieOverview");
-const $movieRating = document.getElementById("movieRating");
-const $closeModal = document.getElementById("closeModal");
-
 
 const options = {
     method: 'GET',
